@@ -9,7 +9,7 @@
   <nav class="bg-gray-800 shadow">
   <div class="container m-auto flex justify-between items-center text-white-700">
     <span class="pl-8 py-4 text-xl font-bold cursor-pointer">
-      <img class="h-10 inline" src="https://cdn-icons-png.flaticon.com/512/2362/2362827.png"/>
+      <img  class="h-10 inline" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fsamurai_3925215&psig=AOvVaw1ZtFBbsOR5wauIlaFGagJj&ust=1683671811081000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCLC5vLPk5v4CFQAAAAAdAAAAABAQ"/>
       Luta do Vale
     </span>
     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
