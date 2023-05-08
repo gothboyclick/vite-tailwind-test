@@ -9,7 +9,7 @@
   <nav class="bg-gray-800 shadow">
   <div class="container m-auto flex justify-between items-center text-white-700">
     <span class="pl-8 py-4 text-xl font-bold cursor-pointer">
-      <img  class="h-10 inline" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fbr%2Ficone-gratis%2Fsamurai_3925215&psig=AOvVaw1ZtFBbsOR5wauIlaFGagJj&ust=1683671811081000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCLC5vLPk5v4CFQAAAAAdAAAAABAQ"/>
+      <img href="./assets/samurai.png" class="inline object-scale-down h-12 w-12" src="./assets/samurai.png"/>
       Luta do Vale
     </span>
     <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
@@ -31,13 +31,13 @@
     </button>
   </div>
   </nav>
-  <section class="m-20 px-4"></section>
-  <div class="grid grid-cols-2 grid-flow-col auto-cols-max relative left-32 w-80 p-8 border bg-red-300 columns-2 gap-4">
-    <a class="absolute bg-green-200 col-span-2 border rounded drop-shadow-xl" href="https://vitejs.dev" target="_blank" rel="noreferrer">
+  <section class="m-20 px-4 "></section>
+  <div class="max-w-md grid grid-cols-2 grid-flow-col auto-cols-max relative left-32 w-80 p-8 border bg-red-300 columns-2 gap-4">
+    <a class="flexabsolute justify-center bg-green-200 col-span-1 border rounded drop-shadow-xl" href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="p-3 logo" alt="Vite Logo" />
     </a>
     
-    <a class="absolute bg-blue-200 col-span-2 border rounded drop-shadow-xl" href="https://svelte.dev" target="_blank" rel="noreferrer">
+    <a class="flexabsolute justify-center bg-blue-200 col-span-2 border rounded drop-shadow-xl" href="https://svelte.dev" target="_blank" rel="noreferrer">
         <img src={svelteLogo} class="p-3 logo drop-shadow-lg svelte" alt="Svelte Logo" />
       </a>
   </div>
@@ -45,11 +45,11 @@
     <nav class="c"></nav>
   </div>
   <div class="inset-x-0 bottom-0 border">
-    <div class="bg-blue-400 rounded-md border btn ">
+    <div class="bg-blue-400 border">
       <Counter />
     </div>
   </div>
-  <div class="w-full bg-red-400 mb-8 border">
-    <nav class=""></nav>
-  </div>
 </main>
+  <div class="w-full flex mx-auto  bg-red-400 mb-0 pb-0">
+    <navbar class=" rounded-xl">aaaaaa</navbar>
+  </div>
